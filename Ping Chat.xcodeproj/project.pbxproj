@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BD1AAA6209029BD0040539D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD1AAA5209029BD0040539D /* AppDelegate.swift */; };
+		8BD1AAA8209029BD0040539D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD1AAA7209029BD0040539D /* ViewController.swift */; };
+		8BD1AAAB209029BD0040539D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD1AAA9209029BD0040539D /* Main.storyboard */; };
+		8BD1AAAD209029C00040539D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD1AAAC209029C00040539D /* Assets.xcassets */; };
+		8BD1AAB0209029C00040539D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD1AAAE209029C00040539D /* LaunchScreen.storyboard */; };
+		8BD1AABB209029C00040539D /* Ping_ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD1AABA209029C00040539D /* Ping_ChatTests.swift */; };
+		8BD1AAC6209029C00040539D /* Ping_ChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD1AAC5209029C00040539D /* Ping_ChatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BD1AAB7209029C00040539D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BD1AA9A209029BC0040539D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BD1AAA1209029BD0040539D;
+			remoteInfo = "Ping Chat";
+		};
+		8BD1AAC2209029C00040539D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BD1AA9A209029BC0040539D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BD1AAA1209029BD0040539D;
+			remoteInfo = "Ping Chat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BD1AAA2209029BD0040539D /* Ping Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ping Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD1AAA5209029BD0040539D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BD1AAA7209029BD0040539D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BD1AAAA209029BD0040539D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BD1AAAC209029C00040539D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BD1AAAF209029C00040539D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BD1AAB1209029C00040539D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BD1AAB6209029C00040539D /* Ping ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ping ChatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD1AABA209029C00040539D /* Ping_ChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ping_ChatTests.swift; sourceTree = "<group>"; };
+		8BD1AABC209029C00040539D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BD1AAC1209029C00040539D /* Ping ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ping ChatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD1AAC5209029C00040539D /* Ping_ChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ping_ChatUITests.swift; sourceTree = "<group>"; };
+		8BD1AAC7209029C00040539D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BD1AA9F209029BD0040539D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD1AAB3209029C00040539D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD1AABE209029C00040539D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BD1AA99209029BC0040539D = {
+			isa = PBXGroup;
+			children = (
+				8BD1AAA4209029BD0040539D /* Ping Chat */,
+				8BD1AAB9209029C00040539D /* Ping ChatTests */,
+				8BD1AAC4209029C00040539D /* Ping ChatUITests */,
+				8BD1AAA3209029BD0040539D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BD1AAA3209029BD0040539D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BD1AAA2209029BD0040539D /* Ping Chat.app */,
+				8BD1AAB6209029C00040539D /* Ping ChatTests.xctest */,
+				8BD1AAC1209029C00040539D /* Ping ChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BD1AAA4209029BD0040539D /* Ping Chat */ = {
+			isa = PBXGroup;
+			children = (
+				8BD1AAA5209029BD0040539D /* AppDelegate.swift */,
+				8BD1AAA7209029BD0040539D /* ViewController.swift */,
+				8BD1AAA9209029BD0040539D /* Main.storyboard */,
+				8BD1AAAC209029C00040539D /* Assets.xcassets */,
+				8BD1AAAE209029C00040539D /* LaunchScreen.storyboard */,
+				8BD1AAB1209029C00040539D /* Info.plist */,
+			);
+			path = "Ping Chat";
+			sourceTree = "<group>";
+		};
+		8BD1AAB9209029C00040539D /* Ping ChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BD1AABA209029C00040539D /* Ping_ChatTests.swift */,
+				8BD1AABC209029C00040539D /* Info.plist */,
+			);
+			path = "Ping ChatTests";
+			sourceTree = "<group>";
+		};
+		8BD1AAC4209029C00040539D /* Ping ChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BD1AAC5209029C00040539D /* Ping_ChatUITests.swift */,
+				8BD1AAC7209029C00040539D /* Info.plist */,
+			);
+			path = "Ping ChatUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BD1AAA1209029BD0040539D /* Ping Chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BD1AACA209029C00040539D /* Build configuration list for PBXNativeTarget "Ping Chat" */;
+			buildPhases = (
+				8BD1AA9E209029BD0040539D /* Sources */,
+				8BD1AA9F209029BD0040539D /* Frameworks */,
+				8BD1AAA0209029BD0040539D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ping Chat";
+			productName = "Ping Chat";
+			productReference = 8BD1AAA2209029BD0040539D /* Ping Chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BD1AAB5209029C00040539D /* Ping ChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BD1AACD209029C00040539D /* Build configuration list for PBXNativeTarget "Ping ChatTests" */;
+			buildPhases = (
+				8BD1AAB2209029C00040539D /* Sources */,
+				8BD1AAB3209029C00040539D /* Frameworks */,
+				8BD1AAB4209029C00040539D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BD1AAB8209029C00040539D /* PBXTargetDependency */,
+			);
+			name = "Ping ChatTests";
+			productName = "Ping ChatTests";
+			productReference = 8BD1AAB6209029C00040539D /* Ping ChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BD1AAC0209029C00040539D /* Ping ChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BD1AAD0209029C00040539D /* Build configuration list for PBXNativeTarget "Ping ChatUITests" */;
+			buildPhases = (
+				8BD1AABD209029C00040539D /* Sources */,
+				8BD1AABE209029C00040539D /* Frameworks */,
+				8BD1AABF209029C00040539D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BD1AAC3209029C00040539D /* PBXTargetDependency */,
+			);
+			name = "Ping ChatUITests";
+			productName = "Ping ChatUITests";
+			productReference = 8BD1AAC1209029C00040539D /* Ping ChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BD1AA9A209029BC0040539D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = BetaMaju;
+				TargetAttributes = {
+					8BD1AAA1209029BD0040539D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					8BD1AAB5209029C00040539D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 8BD1AAA1209029BD0040539D;
+					};
+					8BD1AAC0209029C00040539D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 8BD1AAA1209029BD0040539D;
+					};
+				};
+			};
+			buildConfigurationList = 8BD1AA9D209029BC0040539D /* Build configuration list for PBXProject "Ping Chat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BD1AA99209029BC0040539D;
+			productRefGroup = 8BD1AAA3209029BD0040539D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BD1AAA1209029BD0040539D /* Ping Chat */,
+				8BD1AAB5209029C00040539D /* Ping ChatTests */,
+				8BD1AAC0209029C00040539D /* Ping ChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BD1AAA0209029BD0040539D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD1AAB0209029C00040539D /* LaunchScreen.storyboard in Resources */,
+				8BD1AAAD209029C00040539D /* Assets.xcassets in Resources */,
+				8BD1AAAB209029BD0040539D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD1AAB4209029C00040539D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD1AABF209029C00040539D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BD1AA9E209029BD0040539D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD1AAA8209029BD0040539D /* ViewController.swift in Sources */,
+				8BD1AAA6209029BD0040539D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD1AAB2209029C00040539D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD1AABB209029C00040539D /* Ping_ChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD1AABD209029C00040539D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD1AAC6209029C00040539D /* Ping_ChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BD1AAB8209029C00040539D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BD1AAA1209029BD0040539D /* Ping Chat */;
+			targetProxy = 8BD1AAB7209029C00040539D /* PBXContainerItemProxy */;
+		};
+		8BD1AAC3209029C00040539D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BD1AAA1209029BD0040539D /* Ping Chat */;
+			targetProxy = 8BD1AAC2209029C00040539D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BD1AAA9209029BD0040539D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BD1AAAA209029BD0040539D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BD1AAAE209029C00040539D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BD1AAAF209029C00040539D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BD1AAC8209029C00040539D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BD1AAC9209029C00040539D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BD1AACB209029C00040539D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BXK7V27BSL;
+				INFOPLIST_FILE = "Ping Chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BetaMaju.Ping-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8BD1AACC209029C00040539D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BXK7V27BSL;
+				INFOPLIST_FILE = "Ping Chat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BetaMaju.Ping-Chat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8BD1AACE209029C00040539D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BXK7V27BSL;
+				INFOPLIST_FILE = "Ping ChatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BetaMaju.Ping-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ping Chat.app/Ping Chat";
+			};
+			name = Debug;
+		};
+		8BD1AACF209029C00040539D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BXK7V27BSL;
+				INFOPLIST_FILE = "Ping ChatTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BetaMaju.Ping-ChatTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ping Chat.app/Ping Chat";
+			};
+			name = Release;
+		};
+		8BD1AAD1209029C00040539D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BXK7V27BSL;
+				INFOPLIST_FILE = "Ping ChatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BetaMaju.Ping-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ping Chat";
+			};
+			name = Debug;
+		};
+		8BD1AAD2209029C00040539D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BXK7V27BSL;
+				INFOPLIST_FILE = "Ping ChatUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BetaMaju.Ping-ChatUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ping Chat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BD1AA9D209029BC0040539D /* Build configuration list for PBXProject "Ping Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD1AAC8209029C00040539D /* Debug */,
+				8BD1AAC9209029C00040539D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BD1AACA209029C00040539D /* Build configuration list for PBXNativeTarget "Ping Chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD1AACB209029C00040539D /* Debug */,
+				8BD1AACC209029C00040539D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BD1AACD209029C00040539D /* Build configuration list for PBXNativeTarget "Ping ChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD1AACE209029C00040539D /* Debug */,
+				8BD1AACF209029C00040539D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BD1AAD0209029C00040539D /* Build configuration list for PBXNativeTarget "Ping ChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BD1AAD1209029C00040539D /* Debug */,
+				8BD1AAD2209029C00040539D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BD1AA9A209029BC0040539D /* Project object */;
+}
