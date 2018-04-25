@@ -1,24 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.otf">
+            <string>Montserrat-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--WelcomeVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WelcomeVC" id="BYZ-38-t0r" customClass="WelcomeVC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Welcome Screen" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g4U-xI-1X7">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pAY-Bh-vTO">
+                                <rect key="frame" x="80.666666666666671" y="79" width="213.66666666666663" height="52"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ping Chat Icon" translatesAutoresizingMaskIntoConstraints="NO" id="nRR-yr-6ZF">
+                                        <rect key="frame" x="0.0" y="0.0" width="52" height="52"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="52" id="a9o-E9-B6P"/>
+                                            <constraint firstAttribute="height" constant="52" id="mZv-CD-saH"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PingChat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zL7-Yd-zhD">
+                                        <rect key="frame" x="51.999999999999986" y="0.0" width="161.66666666666663" height="52"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="33"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="634-wr-eqH" customClass="RoundedButton" customModule="Ping_Chat" customModuleProvider="target">
+                                <rect key="frame" x="40" y="627" width="295" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="hdv-Ci-ahh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="17"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZq-JS-nkX" customClass="RoundedButton" customModule="Ping_Chat" customModuleProvider="target">
+                                <rect key="frame" x="40" y="559" width="295" height="50"/>
+                                <color key="backgroundColor" red="0.24680864810943604" green="0.6090741753578186" blue="0.9666481614112854" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="efR-xc-Ee3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="17"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" red="0.15039080381393433" green="0.47376435995101929" blue="0.96289819478988647" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="Wr3-uQ-e44" kind="custom" customClass="SegueFromRight" customModule="Ping_Chat" customModuleProvider="target" id="fPK-lD-vLg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pAY-Bh-vTO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="0KB-4i-5aE"/>
+                            <constraint firstAttribute="bottom" secondItem="g4U-xI-1X7" secondAttribute="bottom" id="7Ig-Ac-fbY"/>
+                            <constraint firstItem="634-wr-eqH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="GqV-cf-pI3"/>
+                            <constraint firstItem="RZq-JS-nkX" firstAttribute="top" relation="lessThanOrEqual" secondItem="pAY-Bh-vTO" secondAttribute="bottom" constant="428" id="JPX-7R-6gD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RZq-JS-nkX" secondAttribute="trailing" constant="40" id="LTM-nt-Fc9"/>
+                            <constraint firstItem="pAY-Bh-vTO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UiW-8f-0we"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="634-wr-eqH" secondAttribute="bottom" constant="101" id="VDS-Y3-1fF"/>
+                            <constraint firstItem="g4U-xI-1X7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="WYf-id-l0b"/>
+                            <constraint firstItem="g4U-xI-1X7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="WeS-MF-DXi"/>
+                            <constraint firstItem="634-wr-eqH" firstAttribute="top" secondItem="RZq-JS-nkX" secondAttribute="bottom" constant="18" id="YyC-8m-zGQ"/>
+                            <constraint firstItem="634-wr-eqH" firstAttribute="top" secondItem="RZq-JS-nkX" secondAttribute="bottom" constant="18" id="nFq-cb-F3S"/>
+                            <constraint firstItem="RZq-JS-nkX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="sYS-6Q-LeM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="634-wr-eqH" secondAttribute="trailing" constant="40" id="sff-79-9Ee"/>
+                            <constraint firstItem="g4U-xI-1X7" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="vSL-ID-70K"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="cbY-rU-3Dp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="116" y="116.74876847290641"/>
+        </scene>
+        <!--NameVC-->
+        <scene sceneID="K2c-7Q-Dfm">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Register" referencedIdentifier="NameVC" id="Wr3-uQ-e44" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6Cs-9H-wTN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1026" y="117"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Ping Chat Icon" width="428" height="512"/>
+        <image name="Welcome Screen" width="375" height="812"/>
+    </resources>
 </document>

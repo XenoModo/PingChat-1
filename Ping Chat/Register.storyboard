@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.otf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--WelcomeVC-->
+        <scene sceneID="H6m-i0-q31">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="WelcomeVC" id="N06-IY-1ba" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mf2-Ov-SPs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-566" y="307"/>
+        </scene>
+        <!--NameVC-->
+        <scene sceneID="HRs-et-i2D">
+            <objects>
+                <viewController storyboardIdentifier="NameVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Wr8-XH-YvQ" customClass="NameVC" customModule="Ping_Chat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6PZ-2X-ai4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIRSTNAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FFr-tx-tye">
+                                <rect key="frame" x="16" y="133" width="105" height="21"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LASTNAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lt8-yf-pmt">
+                                <rect key="frame" x="16" y="207" width="99" height="21"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ping Chat Icon" translatesAutoresizingMaskIntoConstraints="NO" id="SES-K8-eOX">
+                                <rect key="frame" x="147" y="60" width="80" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="PAt-db-c0I"/>
+                                    <constraint firstAttribute="height" constant="41" id="fRt-TV-HVs"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4B-ZV-Ru0">
+                                <rect key="frame" x="17" y="64" width="19" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="NSs-t8-SMt"/>
+                                    <constraint firstAttribute="width" constant="19" id="tKY-GS-e61"/>
+                                </constraints>
+                                <state key="normal" image="BACKARROW"/>
+                                <connections>
+                                    <segue destination="N06-IY-1ba" kind="custom" customClass="SegueFromLeft" customModule="Ping_Chat" customModuleProvider="target" id="1RT-dh-LDb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cyi-xh-pVb">
+                                <rect key="frame" x="140" y="311" width="95" height="33"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="17"/>
+                                <state key="normal" title="CONTINUE"/>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5IL-QM-dkz" customClass="MDCTextField">
+                                <rect key="frame" x="16" y="162" width="343" height="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lNt-A5-ypl" customClass="MDCTextField">
+                                <rect key="frame" x="16" y="236" width="343" height="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1229529753" green="0.12950310109999999" blue="0.1362755299" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="q4B-ZV-Ru0" firstAttribute="top" secondItem="HPM-Bs-IpH" secondAttribute="top" constant="20" id="2y0-QK-loH"/>
+                            <constraint firstItem="q4B-ZV-Ru0" firstAttribute="leading" secondItem="HPM-Bs-IpH" secondAttribute="leading" constant="17" id="7qL-57-HRu"/>
+                            <constraint firstItem="5IL-QM-dkz" firstAttribute="leading" secondItem="HPM-Bs-IpH" secondAttribute="leading" constant="16" id="AkF-VU-LVe"/>
+                            <constraint firstItem="5IL-QM-dkz" firstAttribute="top" secondItem="FFr-tx-tye" secondAttribute="bottom" constant="8" id="C3A-wm-ACF"/>
+                            <constraint firstItem="HPM-Bs-IpH" firstAttribute="trailing" secondItem="lNt-A5-ypl" secondAttribute="trailing" constant="16" id="Div-cz-YId"/>
+                            <constraint firstItem="Lt8-yf-pmt" firstAttribute="top" secondItem="5IL-QM-dkz" secondAttribute="bottom" constant="15" id="HGr-Ui-d3F"/>
+                            <constraint firstItem="Lt8-yf-pmt" firstAttribute="leading" secondItem="HPM-Bs-IpH" secondAttribute="leading" constant="16" id="Jtj-XW-OwX"/>
+                            <constraint firstItem="HPM-Bs-IpH" firstAttribute="trailing" secondItem="5IL-QM-dkz" secondAttribute="trailing" constant="16" id="NTh-Uq-pIW"/>
+                            <constraint firstItem="SES-K8-eOX" firstAttribute="centerX" secondItem="6PZ-2X-ai4" secondAttribute="centerX" id="SBo-wG-tRO"/>
+                            <constraint firstItem="FFr-tx-tye" firstAttribute="leading" secondItem="HPM-Bs-IpH" secondAttribute="leading" constant="16" id="UZc-Ls-4MV"/>
+                            <constraint firstItem="lNt-A5-ypl" firstAttribute="leading" secondItem="HPM-Bs-IpH" secondAttribute="leading" constant="16" id="YPd-Em-7CL"/>
+                            <constraint firstItem="cyi-xh-pVb" firstAttribute="centerX" secondItem="6PZ-2X-ai4" secondAttribute="centerX" id="ddc-IL-Hgg"/>
+                            <constraint firstItem="SES-K8-eOX" firstAttribute="top" secondItem="HPM-Bs-IpH" secondAttribute="top" constant="16" id="e0R-2p-rtS"/>
+                            <constraint firstItem="cyi-xh-pVb" firstAttribute="top" secondItem="lNt-A5-ypl" secondAttribute="bottom" constant="45" id="leb-9x-jv2"/>
+                            <constraint firstItem="FFr-tx-tye" firstAttribute="top" secondItem="q4B-ZV-Ru0" secondAttribute="bottom" constant="37" id="vFV-ja-QoG"/>
+                            <constraint firstItem="lNt-A5-ypl" firstAttribute="top" secondItem="Lt8-yf-pmt" secondAttribute="bottom" constant="8" id="yTz-Ik-zfa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="HPM-Bs-IpH"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="luO-Ya-0kw"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fcq-lM-Q8i" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="469.60000000000002" y="71.674876847290648"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BACKARROW" width="19" height="32"/>
+        <image name="Ping Chat Icon" width="428" height="512"/>
+    </resources>
+</document>

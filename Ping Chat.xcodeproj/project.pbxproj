@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AD519DF4C27AA8C2D5AE77D /* Pods_Ping_ChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D0F1D0B0EED8C04531C074 /* Pods_Ping_ChatTests.framework */; };
+		622DA9C7B980D98A2E1661A4 /* Pods_Ping_ChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF2AEB8817DA1121B7A2B50 /* Pods_Ping_ChatUITests.framework */; };
 		8BD1AAA6209029BD0040539D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD1AAA5209029BD0040539D /* AppDelegate.swift */; };
-		8BD1AAA8209029BD0040539D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD1AAA7209029BD0040539D /* ViewController.swift */; };
+		8BD1AAA8209029BD0040539D /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD1AAA7209029BD0040539D /* WelcomeVC.swift */; };
 		8BD1AAAB209029BD0040539D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD1AAA9209029BD0040539D /* Main.storyboard */; };
-		8BD1AAAD209029C00040539D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD1AAAC209029C00040539D /* Assets.xcassets */; };
 		8BD1AAB0209029C00040539D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD1AAAE209029C00040539D /* LaunchScreen.storyboard */; };
 		8BD1AABB209029C00040539D /* Ping_ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD1AABA209029C00040539D /* Ping_ChatTests.swift */; };
 		8BD1AAC6209029C00040539D /* Ping_ChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD1AAC5209029C00040539D /* Ping_ChatUITests.swift */; };
+		8BD1AAD62090344D0040539D /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8BD1AAD42090344C0040539D /* Montserrat-Regular.otf */; };
+		8BD1AAD72090344D0040539D /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8BD1AAD52090344D0040539D /* Montserrat-Bold.otf */; };
+		8BD1AADA209037560040539D /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD1AAD9209037560040539D /* RoundedButton.swift */; };
+		8BD1AADC20903C6B0040539D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BD1AADB20903C6A0040539D /* Assets.xcassets */; };
+		8BD1AADE20904A8C0040539D /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD1AADD20904A8C0040539D /* Register.storyboard */; };
+		8BD1AAE020904AEE0040539D /* NameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD1AADF20904AEE0040539D /* NameVC.swift */; };
+		8BD1AAE2209064BF0040539D /* SegueFromLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD1AAE1209064BF0040539D /* SegueFromLeft.swift */; };
+		8BD1AAE4209066C00040539D /* SegueFromRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD1AAE3209066C00040539D /* SegueFromRight.swift */; };
+		EC387848C019BE0708E2BF97 /* Pods_Ping_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE212D6347EC0C137DD589E /* Pods_Ping_Chat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5AE212D6347EC0C137DD589E /* Pods_Ping_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ping_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A160507EECA399F927647A8 /* Pods-Ping Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ping Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ping Chat/Pods-Ping Chat.debug.xcconfig"; sourceTree = "<group>"; };
+		86D0F1D0B0EED8C04531C074 /* Pods_Ping_ChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ping_ChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD1AAA2209029BD0040539D /* Ping Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ping Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD1AAA5209029BD0040539D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BD1AAA7209029BD0040539D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BD1AAA7209029BD0040539D /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		8BD1AAAA209029BD0040539D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8BD1AAAC209029C00040539D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BD1AAAF209029C00040539D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BD1AAB1209029C00040539D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BD1AAB6209029C00040539D /* Ping ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ping ChatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +59,20 @@
 		8BD1AAC1209029C00040539D /* Ping ChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ping ChatUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD1AAC5209029C00040539D /* Ping_ChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ping_ChatUITests.swift; sourceTree = "<group>"; };
 		8BD1AAC7209029C00040539D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BD1AAD42090344C0040539D /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		8BD1AAD52090344D0040539D /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		8BD1AAD9209037560040539D /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		8BD1AADB20903C6A0040539D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BD1AADD20904A8C0040539D /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		8BD1AADF20904AEE0040539D /* NameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameVC.swift; sourceTree = "<group>"; };
+		8BD1AAE1209064BF0040539D /* SegueFromLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueFromLeft.swift; sourceTree = "<group>"; };
+		8BD1AAE3209066C00040539D /* SegueFromRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueFromRight.swift; sourceTree = "<group>"; };
+		8FCDDBC92C9A21BA1B23662F /* Pods-Ping ChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ping ChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ping ChatTests/Pods-Ping ChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABABEA6C6E67C270F5EC321E /* Pods-Ping ChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ping ChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ping ChatTests/Pods-Ping ChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		CA94DF435AF7FE27D5AEBC9E /* Pods-Ping Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ping Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ping Chat/Pods-Ping Chat.release.xcconfig"; sourceTree = "<group>"; };
+		CDF2AEB8817DA1121B7A2B50 /* Pods_Ping_ChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ping_ChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E5DE512038CF032951A751 /* Pods-Ping ChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ping ChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ping ChatUITests/Pods-Ping ChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F54D44D1762191AB6277001F /* Pods-Ping ChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ping ChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ping ChatUITests/Pods-Ping ChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC387848C019BE0708E2BF97 /* Pods_Ping_Chat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AD519DF4C27AA8C2D5AE77D /* Pods_Ping_ChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +96,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				622DA9C7B980D98A2E1661A4 /* Pods_Ping_ChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AC67E53257682E01C51AD65 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AE212D6347EC0C137DD589E /* Pods_Ping_Chat.framework */,
+				86D0F1D0B0EED8C04531C074 /* Pods_Ping_ChatTests.framework */,
+				CDF2AEB8817DA1121B7A2B50 /* Pods_Ping_ChatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8BD1AA99209029BC0040539D = {
 			isa = PBXGroup;
 			children = (
+				8BD1AADB20903C6A0040539D /* Assets.xcassets */,
+				8BD1AAD82090373F0040539D /* UIEffects */,
+				8BD1AAD3209034080040539D /* Font */,
 				8BD1AAA4209029BD0040539D /* Ping Chat */,
 				8BD1AAB9209029C00040539D /* Ping ChatTests */,
 				8BD1AAC4209029C00040539D /* Ping ChatUITests */,
 				8BD1AAA3209029BD0040539D /* Products */,
+				CDCEAB138C0A06C0A84A90E2 /* Pods */,
+				0AC67E53257682E01C51AD65 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +142,12 @@
 			isa = PBXGroup;
 			children = (
 				8BD1AAA5209029BD0040539D /* AppDelegate.swift */,
-				8BD1AAA7209029BD0040539D /* ViewController.swift */,
+				8BD1AAA7209029BD0040539D /* WelcomeVC.swift */,
 				8BD1AAA9209029BD0040539D /* Main.storyboard */,
-				8BD1AAAC209029C00040539D /* Assets.xcassets */,
 				8BD1AAAE209029C00040539D /* LaunchScreen.storyboard */,
 				8BD1AAB1209029C00040539D /* Info.plist */,
+				8BD1AADD20904A8C0040539D /* Register.storyboard */,
+				8BD1AADF20904AEE0040539D /* NameVC.swift */,
 			);
 			path = "Ping Chat";
 			sourceTree = "<group>";
@@ -125,6 +170,38 @@
 			path = "Ping ChatUITests";
 			sourceTree = "<group>";
 		};
+		8BD1AAD3209034080040539D /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				8BD1AAD52090344D0040539D /* Montserrat-Bold.otf */,
+				8BD1AAD42090344C0040539D /* Montserrat-Regular.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		8BD1AAD82090373F0040539D /* UIEffects */ = {
+			isa = PBXGroup;
+			children = (
+				8BD1AAD9209037560040539D /* RoundedButton.swift */,
+				8BD1AAE1209064BF0040539D /* SegueFromLeft.swift */,
+				8BD1AAE3209066C00040539D /* SegueFromRight.swift */,
+			);
+			path = UIEffects;
+			sourceTree = "<group>";
+		};
+		CDCEAB138C0A06C0A84A90E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A160507EECA399F927647A8 /* Pods-Ping Chat.debug.xcconfig */,
+				CA94DF435AF7FE27D5AEBC9E /* Pods-Ping Chat.release.xcconfig */,
+				8FCDDBC92C9A21BA1B23662F /* Pods-Ping ChatTests.debug.xcconfig */,
+				ABABEA6C6E67C270F5EC321E /* Pods-Ping ChatTests.release.xcconfig */,
+				F54D44D1762191AB6277001F /* Pods-Ping ChatUITests.debug.xcconfig */,
+				D6E5DE512038CF032951A751 /* Pods-Ping ChatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BD1AACA209029C00040539D /* Build configuration list for PBXNativeTarget "Ping Chat" */;
 			buildPhases = (
+				D091724B180F48B94CCB31C3 /* [CP] Check Pods Manifest.lock */,
 				8BD1AA9E209029BD0040539D /* Sources */,
 				8BD1AA9F209029BD0040539D /* Frameworks */,
 				8BD1AAA0209029BD0040539D /* Resources */,
+				78FD36D0E7335739569C7CFE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +228,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BD1AACD209029C00040539D /* Build configuration list for PBXNativeTarget "Ping ChatTests" */;
 			buildPhases = (
+				881A9206F827EDF69267189E /* [CP] Check Pods Manifest.lock */,
 				8BD1AAB2209029C00040539D /* Sources */,
 				8BD1AAB3209029C00040539D /* Frameworks */,
 				8BD1AAB4209029C00040539D /* Resources */,
@@ -167,6 +247,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BD1AAD0209029C00040539D /* Build configuration list for PBXNativeTarget "Ping ChatUITests" */;
 			buildPhases = (
+				BC2BE1286D01F17676C27550 /* [CP] Check Pods Manifest.lock */,
 				8BD1AABD209029C00040539D /* Sources */,
 				8BD1AABE209029C00040539D /* Frameworks */,
 				8BD1AABF209029C00040539D /* Resources */,
@@ -229,9 +310,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD1AAD72090344D0040539D /* Montserrat-Bold.otf in Resources */,
 				8BD1AAB0209029C00040539D /* LaunchScreen.storyboard in Resources */,
-				8BD1AAAD209029C00040539D /* Assets.xcassets in Resources */,
 				8BD1AAAB209029BD0040539D /* Main.storyboard in Resources */,
+				8BD1AAD62090344D0040539D /* Montserrat-Regular.otf in Resources */,
+				8BD1AADC20903C6B0040539D /* Assets.xcassets in Resources */,
+				8BD1AADE20904A8C0040539D /* Register.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +335,93 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		78FD36D0E7335739569C7CFE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ping Chat/Pods-Ping Chat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ping Chat/Pods-Ping Chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		881A9206F827EDF69267189E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ping ChatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC2BE1286D01F17676C27550 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ping ChatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D091724B180F48B94CCB31C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ping Chat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8BD1AA9E209029BD0040539D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BD1AAA8209029BD0040539D /* ViewController.swift in Sources */,
+				8BD1AAE2209064BF0040539D /* SegueFromLeft.swift in Sources */,
+				8BD1AAA8209029BD0040539D /* WelcomeVC.swift in Sources */,
+				8BD1AAE4209066C00040539D /* SegueFromRight.swift in Sources */,
+				8BD1AAE020904AEE0040539D /* NameVC.swift in Sources */,
+				8BD1AADA209037560040539D /* RoundedButton.swift in Sources */,
 				8BD1AAA6209029BD0040539D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +593,7 @@
 		};
 		8BD1AACB209029C00040539D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A160507EECA399F927647A8 /* Pods-Ping Chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +612,7 @@
 		};
 		8BD1AACC209029C00040539D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA94DF435AF7FE27D5AEBC9E /* Pods-Ping Chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +631,7 @@
 		};
 		8BD1AACE209029C00040539D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FCDDBC92C9A21BA1B23662F /* Pods-Ping ChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +653,7 @@
 		};
 		8BD1AACF209029C00040539D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABABEA6C6E67C270F5EC321E /* Pods-Ping ChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +675,7 @@
 		};
 		8BD1AAD1209029C00040539D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F54D44D1762191AB6277001F /* Pods-Ping ChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +696,7 @@
 		};
 		8BD1AAD2209029C00040539D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6E5DE512038CF032951A751 /* Pods-Ping ChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
