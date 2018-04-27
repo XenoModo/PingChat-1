@@ -9,6 +9,14 @@
 /* Begin PBXBuildFile section */
 		5AD519DF4C27AA8C2D5AE77D /* Pods_Ping_ChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D0F1D0B0EED8C04531C074 /* Pods_Ping_ChatTests.framework */; };
 		622DA9C7B980D98A2E1661A4 /* Pods_Ping_ChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF2AEB8817DA1121B7A2B50 /* Pods_Ping_ChatUITests.framework */; };
+		8BAA82612092D6A20099D1E9 /* PasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA82602092D6A20099D1E9 /* PasswordVC.swift */; };
+		8BAA82652092F8EB0099D1E9 /* AddFriendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA82642092F8EB0099D1E9 /* AddFriendsVC.swift */; };
+		8BAA82682092F9670099D1E9 /* AddFrindsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA82672092F9670099D1E9 /* AddFrindsTableViewCell.swift */; };
+		8BAA826A2092F9B30099D1E9 /* AddFriendsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA82692092F9B30099D1E9 /* AddFriendsTableView.swift */; };
+		8BAA826C2093069B0099D1E9 /* BirthdayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA826B2093069B0099D1E9 /* BirthdayVC.swift */; };
+		8BAA826E209310DC0099D1E9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BAA826D209310DC0099D1E9 /* Login.storyboard */; };
+		8BAA8270209311FE0099D1E9 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA826F209311FE0099D1E9 /* LoginVC.swift */; };
+		8BAA8272209318340099D1E9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8BAA8271209318330099D1E9 /* GoogleService-Info.plist */; };
 		8BD1AAA6209029BD0040539D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD1AAA5209029BD0040539D /* AppDelegate.swift */; };
 		8BD1AAA8209029BD0040539D /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD1AAA7209029BD0040539D /* WelcomeVC.swift */; };
 		8BD1AAAB209029BD0040539D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BD1AAA9209029BD0040539D /* Main.storyboard */; };
@@ -50,6 +58,14 @@
 		5AE212D6347EC0C137DD589E /* Pods_Ping_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ping_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A160507EECA399F927647A8 /* Pods-Ping Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ping Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ping Chat/Pods-Ping Chat.debug.xcconfig"; sourceTree = "<group>"; };
 		86D0F1D0B0EED8C04531C074 /* Pods_Ping_ChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ping_ChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BAA82602092D6A20099D1E9 /* PasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordVC.swift; sourceTree = "<group>"; };
+		8BAA82642092F8EB0099D1E9 /* AddFriendsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendsVC.swift; sourceTree = "<group>"; };
+		8BAA82672092F9670099D1E9 /* AddFrindsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFrindsTableViewCell.swift; sourceTree = "<group>"; };
+		8BAA82692092F9B30099D1E9 /* AddFriendsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendsTableView.swift; sourceTree = "<group>"; };
+		8BAA826B2093069B0099D1E9 /* BirthdayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayVC.swift; sourceTree = "<group>"; };
+		8BAA826D209310DC0099D1E9 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		8BAA826F209311FE0099D1E9 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		8BAA8271209318330099D1E9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8BD1AAA2209029BD0040539D /* Ping Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ping Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BD1AAA5209029BD0040539D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BD1AAA7209029BD0040539D /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
@@ -119,10 +135,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8BAA82662092F94C0099D1E9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8BAA82672092F9670099D1E9 /* AddFrindsTableViewCell.swift */,
+				8BAA82692092F9B30099D1E9 /* AddFriendsTableView.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		8BD1AA99209029BC0040539D = {
 			isa = PBXGroup;
 			children = (
+				8BAA8271209318330099D1E9 /* GoogleService-Info.plist */,
 				8BD1AADB20903C6A0040539D /* Assets.xcassets */,
+				8BAA82662092F94C0099D1E9 /* Data */,
 				8BD1AAD82090373F0040539D /* UIEffects */,
 				8BD1AAD3209034080040539D /* Font */,
 				8BD1AAA4209029BD0040539D /* Ping Chat */,
@@ -150,6 +177,7 @@
 				8BD201A42091A9200051DC70 /* ViewController */,
 				8BD1AAA5209029BD0040539D /* AppDelegate.swift */,
 				8BD1AAA9209029BD0040539D /* Main.storyboard */,
+				8BAA826D209310DC0099D1E9 /* Login.storyboard */,
 				8BD1AAAE209029C00040539D /* LaunchScreen.storyboard */,
 				8BD1AAB1209029C00040539D /* Info.plist */,
 				8BD1AADD20904A8C0040539D /* Register.storyboard */,
@@ -202,6 +230,10 @@
 				8BD201A52091A9630051DC70 /* EmailVC.swift */,
 				8BD201A72091B4F00051DC70 /* ProfileVC.swift */,
 				8BEC07DC2091CA3300723BD6 /* UsernameVC.swift */,
+				8BAA82602092D6A20099D1E9 /* PasswordVC.swift */,
+				8BAA82642092F8EB0099D1E9 /* AddFriendsVC.swift */,
+				8BAA826B2093069B0099D1E9 /* BirthdayVC.swift */,
+				8BAA826F209311FE0099D1E9 /* LoginVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -328,7 +360,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BD1AAD72090344D0040539D /* Montserrat-Bold.otf in Resources */,
+				8BAA8272209318340099D1E9 /* GoogleService-Info.plist in Resources */,
 				8BD1AAB0209029C00040539D /* LaunchScreen.storyboard in Resources */,
+				8BAA826E209310DC0099D1E9 /* Login.storyboard in Resources */,
 				8BD1AAAB209029BD0040539D /* Main.storyboard in Resources */,
 				8BD1AAD62090344D0040539D /* Montserrat-Regular.otf in Resources */,
 				8BD1AADC20903C6B0040539D /* Assets.xcassets in Resources */,
@@ -360,15 +394,19 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Ping Chat/Pods-Ping Chat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
 				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -437,14 +475,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BD1AAE2209064BF0040539D /* SegueFromLeft.swift in Sources */,
+				8BAA82652092F8EB0099D1E9 /* AddFriendsVC.swift in Sources */,
+				8BAA82612092D6A20099D1E9 /* PasswordVC.swift in Sources */,
+				8BAA826C2093069B0099D1E9 /* BirthdayVC.swift in Sources */,
 				8BD1AAA8209029BD0040539D /* WelcomeVC.swift in Sources */,
 				8BD1AAE4209066C00040539D /* SegueFromRight.swift in Sources */,
 				8BD201A62091A9630051DC70 /* EmailVC.swift in Sources */,
 				8BD201A82091B4F10051DC70 /* ProfileVC.swift in Sources */,
 				8BD1AAE020904AEE0040539D /* NameVC.swift in Sources */,
+				8BAA826A2092F9B30099D1E9 /* AddFriendsTableView.swift in Sources */,
 				8BEC07DD2091CA3300723BD6 /* UsernameVC.swift in Sources */,
+				8BAA82682092F9670099D1E9 /* AddFrindsTableViewCell.swift in Sources */,
 				8BD1AADA209037560040539D /* RoundedButton.swift in Sources */,
 				8BD1AAA6209029BD0040539D /* AppDelegate.swift in Sources */,
+				8BAA8270209311FE0099D1E9 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,10 +665,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BXK7V27BSL;
 				INFOPLIST_FILE = "Ping Chat/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BetaMaju.Ping-Chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -640,10 +681,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BXK7V27BSL;
 				INFOPLIST_FILE = "Ping Chat/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BetaMaju.Ping-Chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -660,11 +698,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BXK7V27BSL;
 				INFOPLIST_FILE = "Ping ChatTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BetaMaju.Ping-ChatTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -682,11 +716,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BXK7V27BSL;
 				INFOPLIST_FILE = "Ping ChatTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BetaMaju.Ping-ChatTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -703,11 +733,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BXK7V27BSL;
 				INFOPLIST_FILE = "Ping ChatUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BetaMaju.Ping-ChatUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -724,11 +750,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BXK7V27BSL;
 				INFOPLIST_FILE = "Ping ChatUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BetaMaju.Ping-ChatUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

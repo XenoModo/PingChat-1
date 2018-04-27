@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.otf">
+            <string>Montserrat-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--WelcomeVC-->
+        <scene sceneID="hOd-dZ-7x3">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="WelcomeVC" id="jpA-YD-j3a" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TSS-8F-9Lm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-458" y="41"/>
+        </scene>
+        <!--LoginVC-->
+        <scene sceneID="tEa-3t-69x">
+            <objects>
+                <viewController storyboardIdentifier="LoginVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Ylt-cs-snX" customClass="LoginVC" customModule="Ping_Chat" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dQe-DI-Tkn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ping Chat Icon" translatesAutoresizingMaskIntoConstraints="NO" id="PW6-wK-kNV">
+                                <rect key="frame" x="147.66666666666666" y="60" width="80" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="eTH-up-7T7"/>
+                                    <constraint firstAttribute="width" constant="80" id="iqc-EI-iCh"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2zW-be-vqb">
+                                <rect key="frame" x="17" y="64" width="19" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="VXI-7X-SLI"/>
+                                    <constraint firstAttribute="width" constant="19" id="hd2-5Z-kdT"/>
+                                </constraints>
+                                <state key="normal" image="BACKARROW"/>
+                                <connections>
+                                    <segue destination="jpA-YD-j3a" kind="show" id="GEn-u6-Ho1"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" clearsOnBeginEditing="YES" adjustsFontSizeToFit="NO" minimumFontSize="25" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="fmF-vd-ZyS" customClass="MDCTextField">
+                                <rect key="frame" x="16" y="175" width="343" height="30"/>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits" keyboardAppearance="alert" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" usesAttributedText="YES" borderStyle="roundedRect" clearsOnBeginEditing="YES" adjustsFontSizeToFit="NO" minimumFontSize="25" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="sGq-3s-JvX" customClass="MDCTextField">
+                                <rect key="frame" x="16" y="264" width="343" height="30"/>
+                                <attributedString key="attributedText"/>
+                                <textInputTraits key="textInputTraits" keyboardAppearance="alert" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" textContentType="password"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="USERNAME OR EMAIL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2m9-qe-xcC">
+                                <rect key="frame" x="16" y="146" width="196" height="21"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PASSWORD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NcB-lM-hff">
+                                <rect key="frame" x="16" y="235" width="107" height="21"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdr-wU-SVK">
+                                <rect key="frame" x="109" y="302" width="157" height="30"/>
+                                <state key="normal" title="Forgot your password?"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1215686277" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NcB-lM-hff" firstAttribute="top" secondItem="fmF-vd-ZyS" secondAttribute="bottom" constant="30" id="00Q-vC-eDj"/>
+                            <constraint firstItem="sGq-3s-JvX" firstAttribute="leading" secondItem="VJF-ty-4T9" secondAttribute="leading" constant="16" id="0sG-S7-7Ju"/>
+                            <constraint firstItem="wdr-wU-SVK" firstAttribute="top" secondItem="sGq-3s-JvX" secondAttribute="bottom" constant="8" id="B4W-B3-wnO"/>
+                            <constraint firstItem="2zW-be-vqb" firstAttribute="leading" secondItem="VJF-ty-4T9" secondAttribute="leading" constant="17" id="ClI-DF-b6g"/>
+                            <constraint firstItem="2m9-qe-xcC" firstAttribute="top" secondItem="2zW-be-vqb" secondAttribute="bottom" constant="50" id="DUc-HS-UrR"/>
+                            <constraint firstItem="NcB-lM-hff" firstAttribute="leading" secondItem="VJF-ty-4T9" secondAttribute="leading" constant="16" id="FLf-Wd-p73"/>
+                            <constraint firstItem="2zW-be-vqb" firstAttribute="top" secondItem="VJF-ty-4T9" secondAttribute="top" constant="20" id="GIg-mo-rVN"/>
+                            <constraint firstItem="VJF-ty-4T9" firstAttribute="trailing" secondItem="fmF-vd-ZyS" secondAttribute="trailing" constant="16" id="H6o-MX-4BG"/>
+                            <constraint firstItem="wdr-wU-SVK" firstAttribute="centerX" secondItem="dQe-DI-Tkn" secondAttribute="centerX" id="auY-E4-2GB"/>
+                            <constraint firstItem="PW6-wK-kNV" firstAttribute="centerX" secondItem="dQe-DI-Tkn" secondAttribute="centerX" id="bX2-P5-7Yv"/>
+                            <constraint firstItem="sGq-3s-JvX" firstAttribute="top" secondItem="NcB-lM-hff" secondAttribute="bottom" constant="8" id="det-74-dio"/>
+                            <constraint firstItem="fmF-vd-ZyS" firstAttribute="top" secondItem="2m9-qe-xcC" secondAttribute="bottom" constant="8" id="dfL-bm-ji7"/>
+                            <constraint firstItem="VJF-ty-4T9" firstAttribute="trailing" secondItem="sGq-3s-JvX" secondAttribute="trailing" constant="16" id="gfR-V9-XbC"/>
+                            <constraint firstItem="fmF-vd-ZyS" firstAttribute="leading" secondItem="VJF-ty-4T9" secondAttribute="leading" constant="16" id="mWx-or-pes"/>
+                            <constraint firstItem="PW6-wK-kNV" firstAttribute="top" secondItem="VJF-ty-4T9" secondAttribute="top" constant="16" id="nDk-uj-KhZ"/>
+                            <constraint firstItem="2m9-qe-xcC" firstAttribute="leading" secondItem="VJF-ty-4T9" secondAttribute="leading" constant="16" id="qnJ-eG-ZhG"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VJF-ty-4T9"/>
+                    </view>
+                    <connections>
+                        <outlet property="loginpass" destination="sGq-3s-JvX" id="fRA-yo-VP6"/>
+                        <outlet property="loginusremail" destination="fmF-vd-ZyS" id="kwV-LA-h6y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wPf-pz-Ovt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="96" y="137"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BACKARROW" width="19" height="32"/>
+        <image name="Ping Chat Icon" width="428" height="512"/>
+    </resources>
+</document>
