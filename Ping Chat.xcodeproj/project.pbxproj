@@ -35,6 +35,11 @@
 		8BD201A62091A9630051DC70 /* EmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD201A52091A9630051DC70 /* EmailVC.swift */; };
 		8BD201A82091B4F10051DC70 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD201A72091B4F00051DC70 /* ProfileVC.swift */; };
 		8BEC07DD2091CA3300723BD6 /* UsernameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEC07DC2091CA3300723BD6 /* UsernameVC.swift */; };
+		961F6F8520976A8300E1AF3E /* Friends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961F6F8420976A8200E1AF3E /* Friends.storyboard */; };
+		961F6F8820976AA400E1AF3E /* FriendListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F6F8620976AA300E1AF3E /* FriendListVC.swift */; };
+		961F6F8920976AA400E1AF3E /* MessagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F6F8720976AA300E1AF3E /* MessagesVC.swift */; };
+		961F6F8C20976AAF00E1AF3E /* ConversationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F6F8A20976AAF00E1AF3E /* ConversationTableViewCell.swift */; };
+		961F6F8D20976AAF00E1AF3E /* MessagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961F6F8B20976AAF00E1AF3E /* MessagesTableViewCell.swift */; };
 		EC387848C019BE0708E2BF97 /* Pods_Ping_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE212D6347EC0C137DD589E /* Pods_Ping_Chat.framework */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +97,11 @@
 		8BD201A72091B4F00051DC70 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		8BEC07DC2091CA3300723BD6 /* UsernameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameVC.swift; sourceTree = "<group>"; };
 		8FCDDBC92C9A21BA1B23662F /* Pods-Ping ChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ping ChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ping ChatTests/Pods-Ping ChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		961F6F8420976A8200E1AF3E /* Friends.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Friends.storyboard; sourceTree = "<group>"; };
+		961F6F8620976AA300E1AF3E /* FriendListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListVC.swift; sourceTree = "<group>"; };
+		961F6F8720976AA300E1AF3E /* MessagesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesVC.swift; sourceTree = "<group>"; };
+		961F6F8A20976AAF00E1AF3E /* ConversationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationTableViewCell.swift; sourceTree = "<group>"; };
+		961F6F8B20976AAF00E1AF3E /* MessagesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesTableViewCell.swift; sourceTree = "<group>"; };
 		ABABEA6C6E67C270F5EC321E /* Pods-Ping ChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ping ChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ping ChatTests/Pods-Ping ChatTests.release.xcconfig"; sourceTree = "<group>"; };
 		CA94DF435AF7FE27D5AEBC9E /* Pods-Ping Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ping Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ping Chat/Pods-Ping Chat.release.xcconfig"; sourceTree = "<group>"; };
 		CDF2AEB8817DA1121B7A2B50 /* Pods_Ping_ChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ping_ChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +150,8 @@
 		8BAA82662092F94C0099D1E9 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				961F6F8A20976AAF00E1AF3E /* ConversationTableViewCell.swift */,
+				961F6F8B20976AAF00E1AF3E /* MessagesTableViewCell.swift */,
 				8BAA82672092F9670099D1E9 /* AddFrindsTableViewCell.swift */,
 				8BAA82692092F9B30099D1E9 /* AddFriendsTableView.swift */,
 			);
@@ -177,6 +189,7 @@
 		8BD1AAA4209029BD0040539D /* Ping Chat */ = {
 			isa = PBXGroup;
 			children = (
+				961F6F8420976A8200E1AF3E /* Friends.storyboard */,
 				8BD201A42091A9200051DC70 /* ViewController */,
 				8BD1AAA5209029BD0040539D /* AppDelegate.swift */,
 				8BD1AAA9209029BD0040539D /* Main.storyboard */,
@@ -228,6 +241,8 @@
 		8BD201A42091A9200051DC70 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				961F6F8620976AA300E1AF3E /* FriendListVC.swift */,
+				961F6F8720976AA300E1AF3E /* MessagesVC.swift */,
 				8BD1AAA7209029BD0040539D /* WelcomeVC.swift */,
 				8BD1AADF20904AEE0040539D /* NameVC.swift */,
 				8BD201A52091A9630051DC70 /* EmailVC.swift */,
@@ -369,6 +384,7 @@
 				8BAA826E209310DC0099D1E9 /* Login.storyboard in Resources */,
 				8BD1AAAB209029BD0040539D /* Main.storyboard in Resources */,
 				8BD1AAD62090344D0040539D /* Montserrat-Regular.otf in Resources */,
+				961F6F8520976A8300E1AF3E /* Friends.storyboard in Resources */,
 				8B07155720970C7D003B5477 /* Podfile in Resources */,
 				8BD1AADC20903C6B0040539D /* Assets.xcassets in Resources */,
 				8BD1AADE20904A8C0040539D /* Register.storyboard in Resources */,
@@ -504,13 +520,17 @@
 				8BD1AAE2209064BF0040539D /* SegueFromLeft.swift in Sources */,
 				8BAA82652092F8EB0099D1E9 /* AddFriendsVC.swift in Sources */,
 				8BAA82612092D6A20099D1E9 /* PasswordVC.swift in Sources */,
+				961F6F8D20976AAF00E1AF3E /* MessagesTableViewCell.swift in Sources */,
+				961F6F8920976AA400E1AF3E /* MessagesVC.swift in Sources */,
 				8BAA826C2093069B0099D1E9 /* BirthdayVC.swift in Sources */,
 				8BD1AAA8209029BD0040539D /* WelcomeVC.swift in Sources */,
 				8BD1AAE4209066C00040539D /* SegueFromRight.swift in Sources */,
 				8BD201A62091A9630051DC70 /* EmailVC.swift in Sources */,
+				961F6F8C20976AAF00E1AF3E /* ConversationTableViewCell.swift in Sources */,
 				8BD201A82091B4F10051DC70 /* ProfileVC.swift in Sources */,
 				8BD1AAE020904AEE0040539D /* NameVC.swift in Sources */,
 				8BAA826A2092F9B30099D1E9 /* AddFriendsTableView.swift in Sources */,
+				961F6F8820976AA400E1AF3E /* FriendListVC.swift in Sources */,
 				8BEC07DD2091CA3300723BD6 /* UsernameVC.swift in Sources */,
 				8BAA82682092F9670099D1E9 /* AddFrindsTableViewCell.swift in Sources */,
 				8BD1AADA209037560040539D /* RoundedButton.swift in Sources */,

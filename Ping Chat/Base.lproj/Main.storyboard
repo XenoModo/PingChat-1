@@ -94,6 +94,14 @@
                                     <segue destination="Wr3-uQ-e44" kind="custom" customClass="SegueFromRight" customModule="Ping_Chat" customModuleProvider="target" id="fPK-lD-vLg"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZf-iv-uhS">
+                                <rect key="frame" x="128" y="453" width="118" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Test Chat Screen"/>
+                                <connections>
+                                    <segue destination="eGm-yc-icN" kind="show" id="UgZ-gA-MeV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -119,6 +127,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="116" y="116.74876847290641"/>
+        </scene>
+        <!--Friends-->
+        <scene sceneID="9ok-8x-Mcc">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="FriendListVC" storyboardName="Friends" id="eGm-yc-icN" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HaN-SW-9Ff" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="682" y="9"/>
         </scene>
         <!--NameVC-->
         <scene sceneID="K2c-7Q-Dfm">

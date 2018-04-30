@@ -1,0 +1,6 @@
+# Ignore pod files
+Podfile.lock
+Pods/
+
+# User data
+Ping Chat.xcodeproj/xcuserdata/
