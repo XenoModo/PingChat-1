@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		5AD519DF4C27AA8C2D5AE77D /* Pods_Ping_ChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D0F1D0B0EED8C04531C074 /* Pods_Ping_ChatTests.framework */; };
 		622DA9C7B980D98A2E1661A4 /* Pods_Ping_ChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF2AEB8817DA1121B7A2B50 /* Pods_Ping_ChatUITests.framework */; };
+		8B07155720970C7D003B5477 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 8B07155620970C7D003B5477 /* Podfile */; };
 		8BAA82612092D6A20099D1E9 /* PasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA82602092D6A20099D1E9 /* PasswordVC.swift */; };
 		8BAA82652092F8EB0099D1E9 /* AddFriendsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA82642092F8EB0099D1E9 /* AddFriendsVC.swift */; };
 		8BAA82682092F9670099D1E9 /* AddFrindsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAA82672092F9670099D1E9 /* AddFrindsTableViewCell.swift */; };
@@ -58,6 +59,7 @@
 		5AE212D6347EC0C137DD589E /* Pods_Ping_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ping_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A160507EECA399F927647A8 /* Pods-Ping Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ping Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ping Chat/Pods-Ping Chat.debug.xcconfig"; sourceTree = "<group>"; };
 		86D0F1D0B0EED8C04531C074 /* Pods_Ping_ChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ping_ChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B07155620970C7D003B5477 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		8BAA82602092D6A20099D1E9 /* PasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordVC.swift; sourceTree = "<group>"; };
 		8BAA82642092F8EB0099D1E9 /* AddFriendsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendsVC.swift; sourceTree = "<group>"; };
 		8BAA82672092F9670099D1E9 /* AddFrindsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFrindsTableViewCell.swift; sourceTree = "<group>"; };
@@ -147,6 +149,7 @@
 		8BD1AA99209029BC0040539D = {
 			isa = PBXGroup;
 			children = (
+				8B07155620970C7D003B5477 /* Podfile */,
 				8BAA8271209318330099D1E9 /* GoogleService-Info.plist */,
 				8BD1AADB20903C6A0040539D /* Assets.xcassets */,
 				8BAA82662092F94C0099D1E9 /* Data */,
@@ -263,6 +266,7 @@
 				8BD1AA9F209029BD0040539D /* Frameworks */,
 				8BD1AAA0209029BD0040539D /* Resources */,
 				78FD36D0E7335739569C7CFE /* [CP] Embed Pods Frameworks */,
+				61168A5B5873EF8534D8F43E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -365,6 +369,7 @@
 				8BAA826E209310DC0099D1E9 /* Login.storyboard in Resources */,
 				8BD1AAAB209029BD0040539D /* Main.storyboard in Resources */,
 				8BD1AAD62090344D0040539D /* Montserrat-Regular.otf in Resources */,
+				8B07155720970C7D003B5477 /* Podfile in Resources */,
 				8BD1AADC20903C6B0040539D /* Assets.xcassets in Resources */,
 				8BD1AADE20904A8C0040539D /* Register.storyboard in Resources */,
 			);
@@ -387,6 +392,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		61168A5B5873EF8534D8F43E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Ping Chat/Pods-Ping Chat-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ping Chat/Pods-Ping Chat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		78FD36D0E7335739569C7CFE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,18 +417,22 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Ping Chat/Pods-Ping Chat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
 				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -665,7 +692,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BXK7V27BSL;
 				INFOPLIST_FILE = "Ping Chat/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "BetaMaju.Ping-Chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -681,7 +711,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BXK7V27BSL;
 				INFOPLIST_FILE = "Ping Chat/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "BetaMaju.Ping-Chat";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -698,7 +731,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BXK7V27BSL;
 				INFOPLIST_FILE = "Ping ChatTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "BetaMaju.Ping-ChatTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -716,7 +753,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BXK7V27BSL;
 				INFOPLIST_FILE = "Ping ChatTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "BetaMaju.Ping-ChatTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -733,7 +774,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BXK7V27BSL;
 				INFOPLIST_FILE = "Ping ChatUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "BetaMaju.Ping-ChatUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -750,7 +795,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BXK7V27BSL;
 				INFOPLIST_FILE = "Ping ChatUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "BetaMaju.Ping-ChatUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
