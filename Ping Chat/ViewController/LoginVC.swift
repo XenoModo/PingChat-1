@@ -8,11 +8,39 @@
 
 import UIKit
 import MaterialComponents.MaterialTextFields
+import Firebase
 
 class LoginVC: UIViewController {
 
     @IBOutlet weak var loginusremail: MDCTextField!
     @IBOutlet weak var loginpass: MDCTextField!
+    
+    @IBAction func logIn(_ sender: Any) {
+        if loginusremail.text == "" || loginpass.text == "" {
+            
+            let alertController = UIAlertController(title: "Error", message: "Please enter an email and password.", preferredStyle: .alert)
+            
+            let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+            alertController.addAction(defaultAction)
+            
+            self.present(alertController, animated: true, completion: nil)
+            
+        } else {
+            Auth.auth().signIn(withEmail: loginusremail.text!, password: loginpass.text!) { (user, error) in
+                if error != nil {
+                    let alertController = UIAlertController(title: "Error", message: error?.localizedDescription, preferredStyle: .alert)
+                    
+                    let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+                    alertController.addAction(defaultAction)
+                    
+                    self.present(alertController, animated: true, completion: nil)
+                } else {
+                    self.performSegue(withIdentifier: "Login Segue", sender: self)
+                }
+            }
+        }
+    }
+    
     override func viewDidLoad() {
         
         self.hideKeyBoard()

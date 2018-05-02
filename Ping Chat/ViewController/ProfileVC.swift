@@ -19,7 +19,7 @@ class ProfileVC: UIViewController {
     
     @IBOutlet weak var profilePic: UIImageView!
     
-    
+    var userInfo = [String: String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,14 +33,11 @@ class ProfileVC: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        if let usernameVC = segue.destination as? UsernameVC {
+            userInfo["photoUrl"] = "http://example.com"
+            usernameVC.userInfo = userInfo
+        }
     }
-    */
 
 }

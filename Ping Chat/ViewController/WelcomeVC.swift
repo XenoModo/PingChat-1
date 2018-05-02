@@ -7,19 +7,26 @@
 //
 
 import UIKit
+import Firebase
 
 class WelcomeVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        if Auth.auth().currentUser != nil {
+            let storyboard = UIStoryboard(name: "Friends", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "FriendListVC")
+            self.present(vc, animated: true, completion: nil)
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
 }
 

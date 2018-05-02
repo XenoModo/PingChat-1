@@ -7,12 +7,24 @@
 //
 
 import UIKit
+import Firebase
 
 class FriendListVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var conversationTable: UITableView!
 
     var items = [["name": "Gwyneth Paltrow", "message": "Hi Adam, I'm going to show you something. See you soon.", "time": "15:10", "notification": 3], ["name": "Leo Dicaprio", "message": "This is a message from Leonardo DiCaprio", "time": "13:19", "notification": 2]]
+    
+    @IBAction func signOut(_ sender: Any) {
+        do {
+            try Auth.auth().signOut()
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "WelcomeVC")
+            self.present(vc, animated: true, completion: nil)
+        } catch let error as NSError {
+            print(error.localizedDescription)
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

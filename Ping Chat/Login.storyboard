@@ -75,6 +75,15 @@
                                 <rect key="frame" x="109" y="302" width="157" height="30"/>
                                 <state key="normal" title="Forgot your password?"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cuf-0N-gSt">
+                                <rect key="frame" x="156" y="356" width="62" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="17"/>
+                                <state key="normal" title="LOG IN"/>
+                                <connections>
+                                    <action selector="logIn:" destination="Ylt-cs-snX" eventType="touchUpInside" id="Sot-kd-V1N"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.1215686277" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -100,11 +109,20 @@
                     <connections>
                         <outlet property="loginpass" destination="sGq-3s-JvX" id="fRA-yo-VP6"/>
                         <outlet property="loginusremail" destination="fmF-vd-ZyS" id="kwV-LA-h6y"/>
+                        <segue destination="T9J-4T-mf9" kind="show" identifier="Login Segue" id="E0g-g0-UhJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wPf-pz-Ovt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="96" y="137"/>
+        </scene>
+        <!--FriendListVC-->
+        <scene sceneID="LGV-Ai-KhA">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Friends" referencedIdentifier="FriendListVC" id="T9J-4T-mf9" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DNV-ue-mp5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="706" y="48"/>
         </scene>
     </scenes>
     <resources>

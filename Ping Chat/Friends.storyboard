@@ -136,6 +136,11 @@
                     </view>
                     <navigationItem key="navigationItem" title="FRIENDS" id="5FP-kD-uI5">
                         <barButtonItem key="backBarButtonItem" title=" " id="bgB-ac-muJ"/>
+                        <barButtonItem key="rightBarButtonItem" title="Sign Out" id="wbh-Rz-0df">
+                            <connections>
+                                <action selector="signOut:" destination="sDa-KR-pvR" id="qaq-i6-nmY"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="conversationTable" destination="dzm-38-9S3" id="4Oi-d1-WfS"/>

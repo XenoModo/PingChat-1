@@ -12,6 +12,8 @@ import MaterialComponents.MaterialTextFields
 class UsernameVC: UIViewController {
 @IBOutlet weak var usernametextfield: MDCTextField!
     
+    var userInfo = [String: String]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         usernametextfield.getFont()
@@ -27,14 +29,11 @@ class UsernameVC: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        if let passwordVC = segue.destination as? PasswordVC {
+            userInfo["username"] = usernametextfield.text
+            passwordVC.userInfo = userInfo
+        }
     }
-    */
 
 }

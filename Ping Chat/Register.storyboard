@@ -676,6 +676,9 @@
                                 <state key="normal" title="CONTINUE">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="register:" destination="1Vc-99-2D9" eventType="touchUpInside" id="MIK-AC-J49"/>
+                                </connections>
                             </button>
                             <datePicker contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZKz-Rl-aYJ">
                                 <rect key="frame" x="0.0" y="266" width="375" height="216"/>
@@ -708,11 +711,20 @@
                     <connections>
                         <outlet property="birthdayTextField" destination="oT3-Qr-Upn" id="bPW-xh-U4j"/>
                         <outlet property="datePicker" destination="ZKz-Rl-aYJ" id="Iep-5m-2ZF"/>
+                        <segue destination="n2v-Ie-PSP" kind="show" id="By5-uJ-5eH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YqO-Wy-knV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5447.1999999999998" y="71.674876847290648"/>
+        </scene>
+        <!--FriendListVC-->
+        <scene sceneID="Y1f-n0-WGu">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="FriendListVC" storyboardName="Friends" referencedIdentifier="FriendListVC" id="n2v-Ie-PSP" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DFd-F7-wkL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6139" y="72"/>
         </scene>
     </scenes>
     <resources>
@@ -723,7 +735,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="CL2-po-IwY"/>
-        <segue reference="fDi-l6-3kG"/>
+        <segue reference="ckd-02-ttK"/>
         <segue reference="zoD-Is-dIq"/>
         <segue reference="d6l-r1-eWI"/>
     </inferredMetricsTieBreakers>
